@@ -17,20 +17,20 @@ const CONFIG = {
     {
       title: "Completamente Transformado",
       category: "Talking Head",
-      src: "videos/video-1.mp4",
-      poster: "thumbs/video-1.jpg",
+      src: "videos/video-1.mp4?v=2",
+      poster: "thumbs/video-1.jpg?v=2",
     },
     {
       title: "Termine Isso",
       category: "Reedição de Podcast",
-      src: "videos/video-2.mp4",
-      poster: "thumbs/video-2.jpg",
+      src: "videos/video-2.mp4?v=2",
+      poster: "thumbs/video-2.jpg?v=2",
     },
     {
       title: "Conteúdo Curto",
       category: "Reedição",
-      src: "videos/video-3.mp4",
-      poster: "thumbs/video-3.jpg",
+      src: "videos/video-3.mp4?v=2",
+      poster: "thumbs/video-3.jpg?v=2",
     },
   ],
 };
