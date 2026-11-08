@@ -9,6 +9,7 @@ const CONFIG = {
   links: {
     discord: "https://discord.com/users/1015000410920071270",
     x: "https://x.com/Ananias04557915",
+    whatsapp: "https://wa.me/5568981226918",
   },
 
   // Exactly three videos. Put the files in /videos and /thumbs
