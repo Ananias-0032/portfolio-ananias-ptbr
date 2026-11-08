@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ananias Lopes | Editor de Vídeos Curtos</title>
+  <meta name="description" content="Ananias Lopes é editor de vídeo especializado em conteúdo curto: vídeos Talking Head, YouTube Shorts, Instagram Reels e TikTok, editados para retenção e storytelling.">
+  <meta name="theme-color" content="#080808">
+
+  <meta property="og:title" content="Ananias Lopes | Editor de Vídeos Curtos">
+  <meta property="og:description" content="Edição de vídeos curtos focada em retenção, storytelling e engajamento.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#work">Pular para o conteúdo</a>
+
+  <!-- NAVBAR -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo" aria-label="Ananias, voltar ao topo">ANANIAS<span class="dot">.</span></a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav__links">
+          <li><a href="#work">Trabalhos</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 1. HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <p class="eyebrow reveal">Editor de Vídeo &middot; Conteúdo Curto</p>
+        <h1 id="hero-title" class="hero__title reveal">Transformo Vídeos<br>Em <span class="accent">Experiências.</span></h1>
+        <p class="hero__subtitle reveal">Edito conteúdo curto com foco em retenção, storytelling e engajamento.</p>
+        <div class="hero__actions reveal">
+          <a href="#work" class="btn btn--primary">Ver Meus Trabalhos</a>
+          <a href="#contact" class="btn btn--ghost">Vamos Trabalhar Juntos</a>
+        </div>
+      </div>
+      <a href="#work" class="hero__scroll" aria-label="Rolar para os meus trabalhos"><span></span></a>
+    </section>
+
+    <!-- 2. PORTFOLIO -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Portfólio</p>
+          <h2 id="work-title" class="section__title">Trabalhos Selecionados</h2>
+          <p class="section__sub">Três edições. Um objetivo: manter as pessoas assistindo.</p>
+        </header>
+
+        <!-- Cards are generated from CONFIG.videos in script.js -->
+        <div class="grid" id="video-grid"></div>
+       
+      </div>
+    </section>
+
+    <!-- 3. ABOUT -->
+    <section class="section section--about" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <div class="about__label reveal">
+          <p class="eyebrow">About</p>
+        </div>
+        <div class="about__body">
+          <h2 id="about-title" class="section__title reveal">Mais Que Apenas Edição.</h2>
+          <p class="about__text reveal">Eu sou o Ananias, editor de vídeo apaixonado por criar conteúdo que prende a atenção e mantém o público assistindo. Trabalho com ganchos fortes, ritmo envolvente, storytelling, legendas, design de som e motion graphics para transformar material bruto em conteúdo cativante.</p>
+          <p class="about__quote reveal">Cada segundo importa.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. STRENGTHS -->
+    <section class="section" id="strengths" aria-labelledby="strengths-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Diferenciais</p>
+          <h2 id="strengths-title" class="section__title">O Que Torna Minha Edição Diferente</h2>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__top">
+              <span class="card__num">01</span>
+              <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3>Edição Focada em Retenção</h3>
+            <p>Edição pensada para capturar a atenção e manter o interesse do público.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__top">
+              <span class="card__num">02</span>
+              <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>
+            </div>
+            <h3>Ganchos Fortes</h3>
+            <p>Aberturas impactantes que fazem o público querer continuar assistindo.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__top">
+              <span class="card__num">03</span>
+              <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v4M8 6v12M12 3v18M16 7v10M20 10v4"/></svg>
+            </div>
+            <h3>Design de Som &amp; Motion Graphics</h3>
+            <p>Elementos visuais e sonoros que tornam o conteúdo mais envolvente.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__top">
+              <span class="card__num">04</span>
+              <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><path d="M20 4L8.1 15.9M14.5 14.5L20 20M8.1 8.1L12 12"/></svg>
+            </div>
+            <h3>Storytelling &amp; Ritmo</h3>
+            <p>Cada corte, transição e momento tem um propósito.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CTA -->
+    <section class="section cta" id="contact" aria-labelledby="cta-title">
+      <div class="container cta__inner">
+        <h2 id="cta-title" class="cta__title reveal">Vamos Fazer o Seu Conteúdo <span class="accent">Se Destacar.</span></h2>
+        <p class="cta__sub reveal">Já tem o material gravado? Vamos transformá-lo em conteúdo que vale a pena assistir.</p>
+        <div class="cta__actions reveal">
+          <a href="#" class="btn btn--primary btn--lg" data-link="discord" target="_blank" rel="noopener noreferrer">Vamos Conversar</a>
+        </div>
+        <ul class="socials reveal">
+          <li>
+            <a href="#" data-link="discord" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.3 4.4A19.8 19.8 0 0 0 15.4 3l-.2.4a18.3 18.3 0 0 1 4.4 1.6 15 15 0 0 0-13.2 0A18.3 18.3 0 0 1 10.8 3.4L10.6 3a19.8 19.8 0 0 0-4.9 1.4C2.6 9 1.8 13.5 2.2 18a19.9 19.9 0 0 0 6 3l1.3-2.1a13 13 0 0 1-2-1l.5-.4a14.2 14.2 0 0 0 12 0l.5.4a13 13 0 0 1-2 1l1.3 2.1a19.9 19.9 0 0 0 6-3c.5-5.2-.8-9.7-3.5-13.6zM9.1 15.3c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.1 1.1 2.1 2.4-.9 2.4-2.1 2.4zm5.8 0c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.1 1.1 2.1 2.4-.9 2.4-2.1 2.4z"/></svg>
+              Discord
+            </a>
+          </li>
+          <li>
+            <a href="#" data-link="x" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.2 2.3h3.3l-7.2 8.3 8.5 11.2h-6.7l-5.2-6.8-6 6.8H1.6l7.7-8.8L1.2 2.3h6.8l4.7 6.2 5.5-6.2zm-1.2 17.5h1.8L7.1 4.1H5.2l11.8 15.7z"/></svg>
+              X (Twitter)
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#top" class="nav__logo">ANANIAS<span class="dot">.</span></a>
+        <p>Editor de Vídeo | Conteúdo Curto.</p>
+      </div>
+      <ul class="footer__links">
+        <li><a href="#" data-link="discord" target="_blank" rel="noopener noreferrer">Discord</a></li>
+        <li><a href="#" data-link="x" target="_blank" rel="noopener noreferrer">X</a></li>
+      </ul>
+      <p class="footer__copy">&copy; <span id="year">2026</span> Ananias Lopes. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
